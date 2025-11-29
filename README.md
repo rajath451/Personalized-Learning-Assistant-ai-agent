@@ -59,7 +59,16 @@ personalized-learning-assistant
    cd frontend
    npm install
    ```
+5.## 🔐 Environment Variables
 
+Create a `.env` file in the backend folder and add:
+
+API_KEY=your_api_key_here
+
+javascript
+Copy code
+
+Replace `your_api_key_here` with your own API key.
 ## Usage
 To start the application, run the following command in the `src` directory:
 ```
