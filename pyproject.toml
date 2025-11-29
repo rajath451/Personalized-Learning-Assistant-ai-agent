@@ -1,0 +1,22 @@
+[tool]
+name = "personalized-learning-assistant"
+version = "0.1.0"
+description = "A personalized learning assistant with collaborative agents."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependencies]
+flask = "^2.0"
+flask-restful = "^0.3.9"
+flask-cors = "^3.0.10"
+pydantic = "^1.8.2"
+
+[dev-dependencies]
+pytest = "^6.2"
+black = "^21.7b0"
+isort = "^5.9.3"
+mypy = "^0.910"

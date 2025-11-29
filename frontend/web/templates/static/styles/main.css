@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    background: #35424a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #45a049;
+}
+
+.quiz-view {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.explanation-view {
+    background-color: #fce4ec;
+    border-left: 6px solid #e91e63;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.scheduler-view {
+    background-color: #fff3e0;
+    border-left: 6px solid #ff9800;
+    padding: 10px;
+    margin: 10px 0;
+}
+.progress-container {
+  width: 100%;
+  background: #eee;
+  border-radius: 8px;
+}
+
+.progress-bar {
+  height: 20px;
+  background: #4caf50;
+  border-radius: 8px;
+  transition: width 0.3s ease;
+}
+.explanation-view {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+.explanation-view input {
+  margin-right: 10px;
+  padding: 6px;
+}
+.explanation-view button {
+  padding: 6px 12px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.explanation-view button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+.output {
+  margin-top: 15px;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
